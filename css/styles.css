@@ -648,9 +648,13 @@ img {
 
 /* #region Form */
 
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 
 .order-wrapper {
-    margin-bottom: 8px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -658,9 +662,6 @@ img {
     color: #8e8f99;
 }
 
-.order-wrapper:last-child {
-    margin-bottom: 16px;
-}
 
 .order-label {
     display: block;
@@ -741,7 +742,7 @@ img {
     justify-content: flex-start;
     flex-direction: row;
     gap: 8px;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
     font-weight: 400;
     font-size: 12px;
     line-height: 1.33;
@@ -787,6 +788,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 8px;
 }
 
 .send-btn {
